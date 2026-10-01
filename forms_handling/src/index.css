@@ -1,0 +1,19 @@
+
+input{
+    padding: 10px;
+    margin: 10px;
+    gap: 10;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    width: 200px;
+    border: 1px solid black;
+}
+button{
+    background-color: aquamarine;
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+button:hover{
+    background-color: rgb(194, 222, 222);
+}

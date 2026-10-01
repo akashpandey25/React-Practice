@@ -1,0 +1,99 @@
+.card {
+  height: 280px;
+  width: 280px;
+  padding: 20px;
+  margin: 20px;
+  background: rgb(228, 232, 234);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+.top span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid red;
+  border-radius: 15px;
+  
+}
+.top span:hover{
+  background-color: antiquewhite;
+}
+
+img {
+  width:50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+  border-radius: 50%;
+}
+
+.content{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0 0 12px 0;
+  color: #333;
+}
+
+.content span{
+  text-align: center;
+  font-size: 0.9rem;
+  margin: 0 0 12px 0;
+  color: #333;
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  text-align: center;
+  color: #666;
+  margin: 5px 0 20px 0;
+  line-height: 1.5;
+  overflow-y: auto;
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+}
+
+.bottom{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   border-top: 1px solid #c61d1d;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center;
+  margin:10px;
+ 
+  /* margin-top: auto; */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
